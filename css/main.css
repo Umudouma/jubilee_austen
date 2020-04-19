@@ -1,0 +1,216 @@
+/*****BASE STYLES*****/
+
+body{font-family: 'Source Sans Pro', sans-serif;color: #2b2b2b;}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width { /***** a "class" example *****/
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width { /***** a "class" example *****/
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width { /***** a "class" example *****/
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+
+/****** Header *******/
+
+/******Background Img + Height*******/
+header {
+    height:800px;
+    background:url("../img/hero.png");
+    background-size: cover;
+}
+
+/******Style H1*******/
+
+header h1 {
+    font-family:'Lora';
+    font-size:30px;
+    padding-left:65px 0  65px 25px;
+    color:#bbc085;
+  }
+
+/******Style Navigation *******/
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:18px;
+    color:#828282;
+    padding-left: 80px;
+
+}
+
+/******Style H2 - "Hi,I'm a developer"*******/
+
+header h2 {
+    width: 1000px;
+    clear:both;
+    font-family:'Lora', serif;
+    font-size:72px;
+    line-height:80px;
+    color:#9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+
+header h2 span {
+    color:#2b2b2b;
+}
+
+/****** ABOUT *******/
+
+
+/******Calling out CSS Code*******/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+/*******Style H2 and P Tags********/
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size:36px;
+    padding-left:1px;
+}
+
+#about p {
+    font-size:21px;
+    color:grey;
+    line-height:200%;
+    padding-left:1px;
+    padding-right:1px;
+}
+
+/*******Setting up Work Section********/
+
+/***Background + Text align***/
+
+#work {
+    background:#f9ceb7;
+    height: 600px;
+    width:;
+}
+
+#work .third-width{
+    text-align:center;
+}
+
+/***.Full-Width + Img Padding***/
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+/***space at the bottom of icon image***/
+
+#work img {
+    padding-bottom: 30px;
+}
+
+/***Style H3 and P tags***/
+
+#work h3 {
+    font-size:24px;
+    line-height:30px;
+    width:190px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size:18px;
+    line-height:25px;
+    padding:
+}
+
+/*******Setting up Contact Section********/
+
+#contact {
+    background:#ebebeb;       /****background color****/
+}
+
+#contact .full-width {              /****vertical padding****/
+    padding: 110px 0;
+}
+
+#contact img#contact-image {     /****style image****/
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+ /****Add Padding and some IDs****/
+
+ #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+ }
+
+ #contact #envelope {
+    padding: 0 10px 0 115px;
+ }
+
+ /****Style Your Contact Section Text****/
+
+ #contact h2 {
+    font-family: 'Lora', serif;
+    font-size:36px;
+    line-height:44px;
+ }
+
+ #contact #email-header{
+    font-size:32px;
+    font-weight:lighter;
+    line-height:44px;
+    margin: -30px 0 5px 0;
+ }
+
+ #contact #socialmedia-header {
+     font-weight:bold;
+     font-size:28px;
+     line-height:44px;
+     margin: 40px 0 0 0;
+ }
+
+ #contact a {
+     text-decoration:none;
+     color:#c49075;
+     font-weight:bolder;
+     font-size:28px;
+ }
+
+/****Style your Unordered Social Media List(ul)****/
+
+#contact ul {
+      list-style: none;
+}
+
+#contact ul li {
+      display: inline-block;
+}
+
+#contact ul img {
+      font-size: 32px;
+      padding-right: 48px;
+}
